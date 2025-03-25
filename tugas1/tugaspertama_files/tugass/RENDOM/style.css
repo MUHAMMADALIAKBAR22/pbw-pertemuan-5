@@ -1,0 +1,59 @@
+
+.category{
+    text-align: center;
+    font-size:medium;
+    font-weight: 300;
+
+}
+.h1-pertama{
+    text-align: center;
+}
+.author{
+    text-align: center;
+}
+.daftar ul{
+    list-style: none;
+}
+
+.daftar li span.nomor{
+    color: rgb(0, 0, 0);
+}
+ul{
+    font-weight: 500;
+    max-width: 1200px;
+    padding: 0 410px; 
+}
+
+li{
+    color: rgb(7, 133, 197);
+    
+}
+.h3-daftar{
+    font-weight: 500;
+    max-width: 1200px;
+    padding: 0 400px; 
+}
+.h3-pr{
+    max-width: 1200px;
+    padding: 0 400px; 
+    font-size: larger;
+}
+.pr{
+    padding: 0 405px;
+}
+.h3-pr2{
+    max-width: 1200px;
+    padding: 0 400px; 
+    font-size: larger;
+}
+.pr2{
+    padding: 0 405PX;
+}
+.h3-pr3{
+    max-width: 1200px;
+    padding: 0 400px; 
+    font-size: larger;
+}
+.pr3{
+    padding: 0 405px;
+}
