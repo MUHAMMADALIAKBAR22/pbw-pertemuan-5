@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Biodata Muhammad Ali Akbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    border-bottom: 1px solid #bdbdbd;
+}
+.logo img {
+    width: 20px;
+    margin-right: 10px;
+}
+.nav-item .nav-link {
+    color: black;
+    font-weight: 400;
+}
+.nav-item .nav-link.active {
+    font-weight: bold;
+    color: rgba(41, 128, 228, 0.968);
+}
+.text-primary{
+    color: rgb(30, 121, 239);
+    font-weight: bold;
+    
+}
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white px-5 py-3">
+        <a href="navbar-brand d-flex align-items-center" class="#">
+            <img src="apple.svg" alt="">
+            <span class="fw-bold">FRUITY</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="webBuah.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h2 class="text-primary">Contact Me</h2>
+        <p>Jika kamu butuh bantuan silahkan tanyakan di form ini </p>
+        <form>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" placeholder="Masukkan Email">
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="NamaDepan" class="form-label">Nama Depan</label>
+                    <input type="text" class="form-control" id="NamaDepan" placeholder="Masukkan Nama Depan">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="NameAkhir" class="form-label">Nama belakang</label>
+                    <input type="text" class="form-control" id="NamaAkhir" placeholder="Masukkan Nama belakang">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" placeholder="Masukkan Pesan Anda"></textarea>
+            </div>
+            <div class="mb-3 form-chack">
+                <input type="checkbox" class="form-chack-input" id="terms">
+                <label class="form-check-label" id="terms">Saya setuju dengan syarat dan ketentuan</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+
+        
+        
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* *{
+    background-color: aquamarine;
+} */
+h1{
+    font-weight: 800;
+}
+button{
+    padding: 40px;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+button:hover{
+    background-color: rgb(77, 45, 45);
+}
+
+body{
+    background-image: url(/ss.jpg);
+    color: rgb(23, 53, 43);
+    background-repeat: no-repeat;
+    background-position: right;
+}

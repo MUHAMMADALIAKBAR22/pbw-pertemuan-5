@@ -1,0 +1,52 @@
+
+
+h1{
+   text-align: center;
+    font-family:"poppins",serif;
+}
+.data{
+    padding: 0 500px;
+    
+}
+.data input{
+    width: 500px;
+    height: 30px;
+}
+    
+.gender{
+    padding: 0 500px;
+}
+.prodi{
+    padding: 0 500px;
+}
+.prodi input{
+    width: 500px;
+    height: 30px;
+}
+button{
+    position: absolute;
+    top: 480px;
+    left: 505px;
+    background-color: rgb(43, 94, 246);
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px;
+    width: 34%;
+}
+button:hover{
+    background-color: rgb(19, 12, 125);
+}
+input[type="Alamat"], 
+textarea,select {
+    box-sizing: border-box;
+    width: 100%; 
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #0f0d0d;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+ 
